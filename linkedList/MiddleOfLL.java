@@ -20,7 +20,7 @@ public class MiddleOfLL {
 		head.next.next.next.next = new Node(4);
 		head.next.next.next.next.next = new Node(5);
 		head.next.next.next.next.next.next = new Node(6);
-		//head.next.next.next.next.next.next.next = new Node(7);
+		head.next.next.next.next.next.next.next = new Node(7);
 		head=middle(head);
 		printList(head);
 	}
