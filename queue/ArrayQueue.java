@@ -21,6 +21,7 @@ public ArrayQueue(int n)
 		ArrayQueue aq=new ArrayQueue(n);
 		aq.demo();
 		
+		
 	}
 	void demo() throws Exception
 	{
