@@ -15,7 +15,6 @@ public class NextGreaterElement {
 		Deque<Integer> s=new ArrayDeque<>();
 		for(int i=a.length-1;i>=0;i--)
 		{
-			
 			while(!s.isEmpty()&&s.peek()<=a[i])
 				s.pop();
 			if(s.isEmpty())
